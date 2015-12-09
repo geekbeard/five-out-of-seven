@@ -1,0 +1,15 @@
+{
+"name":"Brendan S. movie ratings",
+"description":"http://imgur.com/W92Y9em",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://www.imdb.com/*"],
+      "js": ["myscript.js"]
+    }
+  ],
+"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
+}
